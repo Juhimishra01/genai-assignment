@@ -1,0 +1,154 @@
+[
+  {
+    "id": "q1",
+    "question": "What are the three stages of a typical RAG pipeline?",
+    "gold_answer": "ingestion, retrieval and generation",
+    "gold_source": "rag_basics.md",
+    "gold_evidence": "In the ingestion stage, documents are split into chunks",
+    "answerable": true
+  },
+  {
+    "id": "q2",
+    "question": "What chunk size and overlap are suggested as a common starting point?",
+    "gold_answer": "800 characters with 120 overlap",
+    "gold_source": "rag_basics.md",
+    "gold_evidence": "800 characters with an overlap of 120 characters",
+    "answerable": true
+  },
+  {
+    "id": "q3",
+    "question": "What simple method lets a RAG system avoid answering when context is missing?",
+    "gold_answer": "A similarity threshold",
+    "gold_source": "rag_basics.md",
+    "gold_evidence": "One simple method is a similarity threshold",
+    "answerable": true
+  },
+  {
+    "id": "q4",
+    "question": "How many dimensions does all-MiniLM-L6-v2 produce?",
+    "gold_answer": "384",
+    "gold_source": "vector_databases.md",
+    "gold_evidence": "produces vectors with 384 dimensions",
+    "answerable": true
+  },
+  {
+    "id": "q5",
+    "question": "How many bytes does a 384-dimension float32 vector need?",
+    "gold_answer": "1,536 bytes",
+    "gold_source": "vector_databases.md",
+    "gold_evidence": "A 384-dimension vector therefore needs 1,536 bytes",
+    "answerable": true
+  },
+  {
+    "id": "q6",
+    "question": "About how much extra storage does an HNSW index add?",
+    "gold_answer": "About fifty percent",
+    "gold_source": "vector_databases.md",
+    "gold_evidence": "add about fifty percent on top",
+    "answerable": true
+  },
+  {
+    "id": "q7",
+    "question": "Why does a managed vector database bill grow even without queries?",
+    "gold_answer": "It charges for always-on pods",
+    "gold_source": "vector_databases.md",
+    "gold_evidence": "charge for always-on capacity, often called pods",
+    "answerable": true
+  },
+  {
+    "id": "q8",
+    "question": "How can ingestion be made idempotent?",
+    "gold_answer": "Hash-based chunk IDs plus upsert",
+    "gold_source": "vector_databases.md",
+    "gold_evidence": "derive each chunk's identifier from a hash of its source file",
+    "answerable": true
+  },
+  {
+    "id": "q9",
+    "question": "What does MRR give for a relevant chunk at rank 2?",
+    "gold_answer": "0.5",
+    "gold_source": "evaluation_metrics.md",
+    "gold_evidence": "a relevant chunk at rank 2 scores 0.5",
+    "answerable": true
+  },
+  {
+    "id": "q10",
+    "question": "What is position bias and how is it checked?",
+    "gold_answer": "Preferring the first answer shown; run both orders",
+    "gold_source": "evaluation_metrics.md",
+    "gold_evidence": "it is checked by running each pair in both orders",
+    "answerable": true
+  },
+  {
+    "id": "q11",
+    "question": "Why should the judge come from a different family than the generator?",
+    "gold_answer": "Self-enhancement bias",
+    "gold_source": "evaluation_metrics.md",
+    "gold_evidence": "the judge should come from a different family than the generator",
+    "answerable": true
+  },
+  {
+    "id": "q12",
+    "question": "What is Cohen's kappa used for?",
+    "gold_answer": "Agreement with human labels beyond chance",
+    "gold_source": "evaluation_metrics.md",
+    "gold_evidence": "agrees with human labels beyond chance",
+    "answerable": true
+  },
+  {
+    "id": "q13",
+    "question": "What are the three classic cloud service models?",
+    "gold_answer": "IaaS, PaaS and SaaS",
+    "gold_source": "cloud_computing.txt",
+    "gold_evidence": "Infrastructure as a Service, Platform as a Service and Software as a Service",
+    "answerable": true
+  },
+  {
+    "id": "q14",
+    "question": "What durability is Amazon S3 designed for?",
+    "gold_answer": "Eleven nines",
+    "gold_source": "cloud_computing.txt",
+    "gold_evidence": "S3 is designed for eleven nines of durability",
+    "answerable": true
+  },
+  {
+    "id": "q15",
+    "question": "What does the principle of least privilege say?",
+    "gold_answer": "Grant only the permissions needed",
+    "gold_source": "cloud_computing.txt",
+    "gold_evidence": "should receive only the permissions it needs and nothing more",
+    "answerable": true
+  },
+  {
+    "id": "q16",
+    "question": "How are serverless functions like AWS Lambda billed?",
+    "gold_answer": "By execution time",
+    "gold_source": "cloud_computing.txt",
+    "gold_evidence": "billed for execution time rather than idle servers",
+    "answerable": true
+  },
+  {
+    "id": "q_unans1",
+    "question": "Who won the FIFA World Cup in 2018?",
+    "gold_answer": null,
+    "gold_source": null,
+    "gold_evidence": null,
+    "answerable": false
+  },
+  {
+    "id": "q_unans2",
+    "question": "What is the recipe for chocolate chip cookies?",
+    "gold_answer": null,
+    "gold_source": null,
+    "gold_evidence": null,
+    "answerable": false
+  },
+  {
+    "id": "q_unans3",
+    "question": "What is the population of Brazil?",
+    "gold_answer": null,
+    "gold_source": null,
+    "gold_evidence": null,
+    "answerable": false
+  }
+]

@@ -1,0 +1,23 @@
+{"q": "What are the three stages of a typical RAG pipeline?", "retrieval_ms": 35.2, "llm_ms": 254.98, "chunks": 3, "chunks_used": 2, "tokens": {"prompt": 472, "completion": 109}, "no_context": false}
+{"q": "Who won the FIFA World Cup in 2018?", "retrieval_ms": 17.63, "llm_ms": 0, "chunks": 3, "chunks_used": 0, "tokens": {"prompt": 0, "completion": 0}, "no_context": true}
+{"q": "What are the three stages of a typical RAG pipeline?", "retrieval_ms": 70.79, "llm_ms": 766.86, "chunks": 3, "chunks_used": 2, "tokens": {"prompt": 476, "completion": 163}, "no_context": false}
+{"q": "What are the three stages of a typical RAG pipeline?", "retrieval_ms": 14462.24, "llm_ms": 1633.55, "chunks": 3, "chunks_used": 2, "tokens": {"prompt": 476, "completion": 163}, "no_context": false}
+{"q": "What chunk size and overlap are suggested as a common starting point?", "retrieval_ms": 31.47, "llm_ms": 669.17, "chunks": 3, "chunks_used": 3, "tokens": {"prompt": 658, "completion": 143}, "no_context": false}
+{"q": "What simple method lets a RAG system avoid answering when context is missing?", "retrieval_ms": 18.59, "llm_ms": 738.61, "chunks": 3, "chunks_used": 3, "tokens": {"prompt": 526, "completion": 158}, "no_context": false}
+{"q": "How many dimensions does all-MiniLM-L6-v2 produce?", "retrieval_ms": 18.11, "llm_ms": 594.05, "chunks": 3, "chunks_used": 1, "tokens": {"prompt": 320, "completion": 93}, "no_context": false}
+{"q": "How many bytes does a 384-dimension float32 vector need?", "retrieval_ms": 17.83, "llm_ms": 652.64, "chunks": 3, "chunks_used": 1, "tokens": {"prompt": 320, "completion": 128}, "no_context": false}
+{"q": "About how much extra storage does an HNSW index add?", "retrieval_ms": 20.06, "llm_ms": 587.36, "chunks": 3, "chunks_used": 3, "tokens": {"prompt": 544, "completion": 95}, "no_context": false}
+{"q": "Why does a managed vector database bill grow even without queries?", "retrieval_ms": 28.65, "llm_ms": 759.71, "chunks": 3, "chunks_used": 2, "tokens": {"prompt": 499, "completion": 157}, "no_context": false}
+{"q": "How can ingestion be made idempotent?", "retrieval_ms": 17.55, "llm_ms": 592.63, "chunks": 3, "chunks_used": 1, "tokens": {"prompt": 311, "completion": 220}, "no_context": false}
+{"q": "What does MRR give for a relevant chunk at rank 2?", "retrieval_ms": 17.33, "llm_ms": 682.63, "chunks": 3, "chunks_used": 3, "tokens": {"prompt": 649, "completion": 101}, "no_context": false}
+{"q": "What is position bias and how is it checked?", "retrieval_ms": 16.97, "llm_ms": 676.71, "chunks": 3, "chunks_used": 1, "tokens": {"prompt": 292, "completion": 145}, "no_context": false}
+{"q": "Why should the judge come from a different family than the generator?", "retrieval_ms": 27.39, "llm_ms": 0, "chunks": 3, "chunks_used": 0, "tokens": {"prompt": 0, "completion": 0}, "no_context": true}
+{"q": "What is Cohen's kappa used for?", "retrieval_ms": 18.44, "llm_ms": 490.11, "chunks": 3, "chunks_used": 1, "tokens": {"prompt": 291, "completion": 125}, "no_context": false}
+{"q": "What are the three classic cloud service models?", "retrieval_ms": 16.53, "llm_ms": 672.82, "chunks": 3, "chunks_used": 3, "tokens": {"prompt": 617, "completion": 112}, "no_context": false}
+{"q": "What durability is Amazon S3 designed for?", "retrieval_ms": 28.34, "llm_ms": 658.04, "chunks": 3, "chunks_used": 2, "tokens": {"prompt": 432, "completion": 81}, "no_context": false}
+{"q": "What does the principle of least privilege say?", "retrieval_ms": 16.75, "llm_ms": 669.37, "chunks": 3, "chunks_used": 1, "tokens": {"prompt": 268, "completion": 130}, "no_context": false}
+{"q": "How are serverless functions like AWS Lambda billed?", "retrieval_ms": 16.89, "llm_ms": 654.23, "chunks": 3, "chunks_used": 2, "tokens": {"prompt": 433, "completion": 108}, "no_context": false}
+{"q": "Who won the FIFA World Cup in 2018?", "retrieval_ms": 16.26, "llm_ms": 0, "chunks": 3, "chunks_used": 0, "tokens": {"prompt": 0, "completion": 0}, "no_context": true}
+{"q": "What is the recipe for chocolate chip cookies?", "retrieval_ms": 31.67, "llm_ms": 0, "chunks": 3, "chunks_used": 0, "tokens": {"prompt": 0, "completion": 0}, "no_context": true}
+{"q": "What is the population of Brazil?", "retrieval_ms": 15.41, "llm_ms": 0, "chunks": 3, "chunks_used": 0, "tokens": {"prompt": 0, "completion": 0}, "no_context": true}
+{"q": "What are the three stages of a typical RAG pipeline?", "retrieval_ms": 148.58, "llm_ms": 841.71, "chunks": 3, "chunks_used": 2, "tokens": {"prompt": 476, "completion": 163}, "no_context": false}

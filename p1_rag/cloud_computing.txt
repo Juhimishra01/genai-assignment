@@ -1,0 +1,11 @@
+Cloud Computing Fundamentals
+
+Cloud computing delivers computing resources such as servers, storage and databases over the internet on a pay-as-you-go basis. The three classic service models are Infrastructure as a Service, Platform as a Service and Software as a Service.
+
+Infrastructure as a Service gives the customer raw virtual machines and networking. Amazon EC2 is a well known example. Platform as a Service hides the servers and lets developers deploy code directly, as with AWS Elastic Beanstalk. Software as a Service delivers a finished application through a browser, such as Gmail.
+
+Object storage services like Amazon S3 store files as objects inside buckets, and each object is addressed by a unique key. S3 is designed for eleven nines of durability, which means data loss is extremely unlikely.
+
+Identity and Access Management, usually shortened to IAM, controls who can do what. The principle of least privilege says that every user and service should receive only the permissions it needs and nothing more.
+
+Auto scaling adds or removes virtual machines automatically as demand changes. A load balancer spreads incoming requests across the running machines so that no single machine is overloaded. Serverless functions such as AWS Lambda run code only when triggered, and the customer is billed for execution time rather than idle servers.

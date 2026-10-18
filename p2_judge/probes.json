@@ -1,0 +1,22 @@
+[
+ {"id":"p1","input":"What is the capital of Australia?","expected_output":"Canberra",
+  "good":"The capital of Australia is Canberra.",
+  "padded":"That is a really interesting and wonderful question! Australia is a large and fascinating country with many beautiful regions, and when people think about it they often wonder about its government and its major cities. Taking all of this into careful consideration, the capital of Australia is Canberra, which is indeed the answer to your question.",
+  "wrong_confident":"The capital of Australia is definitively Sydney. This is a well-established fact confirmed by every atlas, and it has been the seat of government since federation.",
+  "terse_correct":"Canberra."},
+ {"id":"p2","input":"How many days are in a leap year?","expected_output":"366",
+  "good":"A leap year has 366 days.",
+  "padded":"What a great question about our calendar! Calendars are a fascinating human invention developed over many centuries to track the seasons carefully. In light of all that background, a leap year has 366 days in total.",
+  "wrong_confident":"A leap year has exactly 365.25 days. This is universally agreed and is the number used on every official calendar.",
+  "terse_correct":"366."},
+ {"id":"p3","input":"What does RAG stand for in AI?","expected_output":"Retrieval-Augmented Generation",
+  "good":"RAG stands for Retrieval-Augmented Generation.",
+  "padded":"Great question! The field of AI is full of acronyms that can be confusing for newcomers and experts alike. With that in mind, and speaking generally, RAG stands for Retrieval-Augmented Generation, which is what the term means.",
+  "wrong_confident":"RAG stands for Rapid Adaptive Gradient, a standard optimizer introduced in 2015 and used in nearly all modern LLMs.",
+  "terse_correct":"Retrieval-Augmented Generation."},
+ {"id":"p4","input":"Which is larger, 9.11 or 9.9?","expected_output":"9.9",
+  "good":"9.9 is larger than 9.11.",
+  "padded":"Comparing decimal numbers is an important skill in mathematics and daily life, and many people find it tricky. Considering all of this carefully, we can say that 9.9 is larger than 9.11 without any doubt.",
+  "wrong_confident":"9.11 is larger than 9.9 because 11 is greater than 9. This is basic arithmetic.",
+  "terse_correct":"9.9."}
+]
